@@ -4,6 +4,7 @@ var sketch = function (p) {
   var genesis;
   var container;
   var isLoaded;
+  
   p.preload = function () {
     isLoaded = false;
     var genesisPath = '../data/genesis.json';
