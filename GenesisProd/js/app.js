@@ -3,11 +3,11 @@ var p5node = $container[0]
 new p5(sketch, p5node);
 
 
-  $('.filters-button-group').on('change ', '.checkbox ', function () {
-    var filterValue = $(this).attr('data-filter');
-    var elementsToToggle = $container.find('.'+filterValue);
-    elementsToToggle.toggle();
-  });
+$('.filters-button-group').on('change ', '.checkbox ', function () {
+  var filterValue = $(this).attr('data-filter');
+  var elementsToToggle = $container.find('.' + filterValue);
+  elementsToToggle.toggle();
+});
 
 
 // change is-checked class on buttons
