@@ -19,4 +19,4 @@ yarn global add harp
 
 harp server
 ```
-The website should be available at (localhost:9000)
+The website should be available at [localhost:9000](localhost:9000)
