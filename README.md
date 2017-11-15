@@ -5,7 +5,7 @@ The deliverable (in the _GenesisProd_ folder), uses [P5*js](https://p5js.org) It
 
 It is often said that religions are whatever people make them to be. This website allows us to go a bit further by filtering out passages that might not fit the tone that resonates most with a reader at a given moment.
 
-This quick and dirty project was made for the Creative Coding Lab course at HEAD Media Design, Geneva.
+This quick and dirty project was made for the Creative Coding Lab course at [HEAD Media Design, Geneva](https://www.hesge.ch/head/formations-recherche/master-en-media-design).
 
 ![alt text](https://raw.githubusercontent.com/simonpinkas/The-Sentimental-Verses/master/Screenshot.png "The Sentimental Verses Screenshot")
 
