@@ -8,7 +8,7 @@ It is often said that religions are whatever people make them to be. This websit
 This quick and dirty project was made for the Creative Coding Lab course at HEAD Media Design, Geneva.
 
 ## Installation
-You must have node and yarn installed. 
+You must have node and [yarn](https://yarnpkg.com/en/) installed. 
 
 ```sh
 git clone https://github.com/simonpinkas/The-Sentimental-Verses.git
@@ -19,4 +19,4 @@ yarn global add harp
 
 harp server
 ```
-The website should be available at [localhost:9000](localhost:9000)
+The website should be available at <http://localhost:9000>
