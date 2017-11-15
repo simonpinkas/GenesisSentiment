@@ -11,8 +11,9 @@ This quick and dirty project was made for the Creative Coding Lab course at HEAD
 You must have node and yarn installed. 
 
 Install [Harp](https://github.com/sintaxi/harp)
-```
+```sh
 git clone https://github.com/simonpinkas/The-Sentimental-Verses.git
+
 cd The-Sentimental-Verses
 
 cd GenesisProd
