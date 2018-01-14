@@ -4,7 +4,7 @@ var sketch = function (p) {
   var genesis;
   var container;
   var isLoaded;
-  
+
   p.preload = function () {
     isLoaded = false;
     var genesisPath = '../data/genesis.json';
@@ -13,7 +13,10 @@ var sketch = function (p) {
 
   p.setup = function () {
     p.noCanvas();
+    createVerses();
+  }
 
+  var createVerses = function () {
     for (var i = 0; i < genesis.sentences_tone.length; i++) {
       var hasTone = false;
       var genesisDiv = p.createP(genesis.sentences_tone[i].text);
@@ -25,7 +28,9 @@ var sketch = function (p) {
         genesisDiv.addClass("neutral");
         genesisDiv.attribute("data-category", "neutral");
       }
+      genesisDiv.attribute("chapter", genesis.sentences_tone[i].text.substr(8, 2).replace(':', ''));
     }
     isLoaded = true;
   }
+
 };

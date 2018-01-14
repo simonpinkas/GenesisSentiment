@@ -1,5 +1,17 @@
+@font-face {
+    font-family: 'SuisseNeue';
+    src: url('../fonts/SuisseNeue-Medium.eot');
+    src: url('../fonts/SuisseNeue-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SuisseNeue-Medium.woff2') format('woff2'),
+    url('../fonts/SuisseNeue-Medium.woff') format('woff'),
+    url('../fonts/SuisseNeue-Medium.ttf') format('truetype'),
+    url('../fonts/SuisseNeue-Medium.svg#SuisseNeue-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
 body {
-  font-family: "Georgia";
+  font-family: "SuisseNeue";
   padding: 50px 20px 0;
   background: rgba(0, 0, 0, 1);
   color: rgba(255, 255, 255, 1);
@@ -9,15 +21,15 @@ body {
 .title {
   font-size: 2rem;
   position: fixed;
-  left: -165px;
+  left: -168px;
   bottom: 190px;
   transform: rotate(-90deg);
 }
 
 .book {
   font-size: 2rem;
-  position: absolute;
-  right: -25px;
+  position: fixed;
+  right: -35px;
   top: 60px;
   transform: rotate(90deg);
 }
@@ -28,7 +40,7 @@ body {
 
 .verse {
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .button-group {
@@ -48,8 +60,8 @@ body {
   width: auto;
   padding: 0.8rem;
   ::before {
-    font-size: 1rem;
-    margin-right: 1rem;
+    font-size: 1.3rem;
+    margin: 0.5rem;
   }
 }
 
