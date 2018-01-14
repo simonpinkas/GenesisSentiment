@@ -22,3 +22,5 @@ yarn global add harp
 harp server
 ```
 The website should be available at <http://localhost:9000>
+
+You can request a random verse corresponding to an emotion through [this tiny API](https://thesentimentalversesapi.herokuapp.com/verses/joy). The code is available [here](https://github.com/simonpinkas/The-Sentimental-Verses-API)
