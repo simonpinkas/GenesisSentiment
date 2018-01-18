@@ -7,7 +7,7 @@ var sketch = function (p) {
 
   p.preload = function () {
     isLoaded = false;
-    var genesisPath = 'https://simonpinkas.github.io/The-Sentimental-Verses/www/data/genesis.json';
+    var genesisPath = '/data/genesis.json';
     genesis = p.loadJSON(genesisPath);
   }
 
