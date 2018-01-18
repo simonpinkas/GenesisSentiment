@@ -7,7 +7,7 @@ var sketch = function (p) {
 
   p.preload = function () {
     isLoaded = false;
-    var genesisPath = '/data/genesis.json';
+    var genesisPath = '/www/data/genesis.json';
     genesis = p.loadJSON(genesisPath);
   }
 
