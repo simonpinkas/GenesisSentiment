@@ -1,0 +1,16 @@
+<h1>The Sentimental Verses</h1><p>An emotionally filterable book of Genesis, based on <a href="https://www.ibm.com/watson/services/tone-analyzer/">IBM Watson Tone Analyser&#39;s</a> interpretation of the scripture. The prototype (in the <em>GenesisProto</em> folder) made with <a href="http://processing.org">Processing</a> assigns a color block to each verse, corresponding to the tones and the likelihood of accuracy detected by Watson. The  tones are <strong>joy</strong>, <strong>sadness</strong>, <strong>anger</strong>, <strong>analytical</strong>, <strong>confident</strong>, <strong>tentative</strong> and <strong>fear</strong>. </p>
+<p>The deliverable (in the <em>GenesisProd</em> folder), uses <a href="https://p5js.org">P5*js</a> It displays each verse with an emoji indicator and filters at the top. I use a subset of emotions here, omiting <del>analytical</del>, <del>confident</del> and <del>tentative</del>.</p>
+<p>It is often said that religions are whatever people make them to be. This website allows us to go a bit further by filtering out passages that might not fit the tone that resonates most with a reader at a given moment.</p>
+<p>This quick and dirty project was made for the Creative Coding Lab course at <a href="https://www.hesge.ch/head/formations-recherche/master-en-media-design">HEAD Media Design, Geneva</a>.</p>
+<p><img src="https://raw.githubusercontent.com/simonpinkas/The-Sentimental-Verses/master/Screenshot.png" alt="alt text" title="The Sentimental Verses Screenshot"></p>
+<h2>Installation</h2><p>You must have node and <a href="https://yarnpkg.com/en/">yarn</a> installed. </p>
+<pre><code class="language-sh">git clone https://github.com/simonpinkas/The-Sentimental-Verses.git
+
+cd The-Sentimental-Verses/GenesisProd
+
+yarn global add harp
+
+harp server
+</code></pre>
+<p>The website should be available at <a href="http://localhost:9000">http://localhost:9000</a></p>
+<p>You can request a random verse corresponding to an emotion through <a href="https://thesentimentalversesapi.herokuapp.com/verses/joy">this tiny API</a>. The code is available <a href="https://github.com/simonpinkas/The-Sentimental-Verses-API">here</a></p>
